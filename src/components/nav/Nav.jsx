@@ -38,7 +38,7 @@ const Nav = () => {
       </div>
       {isOpen ? (
         <div className='flex justify-center items-center '>
-          <div className='flex flex-col gap-[22px] border w-[320px] h-[250px] justify-center items-center '>
+          <div className='flex flex-col gap-[22px] border w-[320px] h-[260px] justify-center items-center z-20  fixed top-[12%] bg-white'>
             <div className='flex flex-col gap-[9px] border-b-2 w-[270px] pb-[15px]'>
               <button className='text-xl font-bold'>PRODUCT</button>
               <button className='text-xl font-bold'>FEATURES</button>

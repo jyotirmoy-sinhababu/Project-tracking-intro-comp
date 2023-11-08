@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         barlow: ['Barlow Condensed'],
       },
+      colors: {
+        red: ['#ef4444'],
+      },
     },
   },
   plugins: [],
