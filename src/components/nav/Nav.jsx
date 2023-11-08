@@ -9,7 +9,6 @@ const Nav = () => {
   const handleIsOpenFn = () => {
     !isOpen ? setIsOpen(!isOpen) : setIsOpen(!isOpen);
   };
-  console.log(isOpen);
   return (
     <>
       {' '}
